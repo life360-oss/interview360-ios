@@ -11,11 +11,11 @@ let package = Package(
     products: [
         .library(
             name: "interview360-ios",
-            targets: ["Aficionado"])
+            targets: ["ArtAficionado"])
     ],
     targets: [
         .binaryTarget(
-            name: "Aficionado",
-            path: "Aficionado.xcframework")
+            name: "ArtAficionado",
+            path: "ArtAficionado.xcframework")
     ]
 )
