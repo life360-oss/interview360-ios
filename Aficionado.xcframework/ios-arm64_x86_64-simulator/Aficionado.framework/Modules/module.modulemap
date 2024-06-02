@@ -1,0 +1,4 @@
+framework module Aficionado {
+  header "Aficionado-Swift.h"
+  requires objc
+}
