@@ -8,103 +8,13 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum HTTPStatusCode : Swift.Int, Swift.Error {
-  public enum ResponseType {
-    case informational
-    case success
-    case redirection
-    case clientError
-    case serverError
-    case undefined
-    public var codes: [Aficionado.HTTPStatusCode] {
-      get
-    }
-    public static func == (a: Aficionado.HTTPStatusCode.ResponseType, b: Aficionado.HTTPStatusCode.ResponseType) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  case `continue`
-  case switchingProtocols
-  case processing
-  case ok
-  case created
-  case accepted
-  case nonAuthoritativeInformation
-  case noContent
-  case resetContent
-  case partialContent
-  case multiStatus
-  case alreadyReported
-  case imUsed
-  case multipleChoices
-  case movedPermanently
-  case found
-  case seeOther
-  case notModified
-  case useProxy
-  case switchProxy
-  case temporaryRedirect
-  case permanentRedirect
-  case badRequest
-  case unauthorized
-  case paymentRequired
-  case forbidden
-  case notFound
-  case methodNotAllowed
-  case notAcceptable
-  case proxyAuthenticationRequired
+public enum AficionadoError : Swift.Error {
   case requestTimeout
-  case conflict
-  case gone
-  case lengthRequired
-  case preconditionFailed
-  case payloadTooLarge
-  case URITooLong
-  case unsupportedMediaType
-  case rangeNotSatisfiable
-  case expectationFailed
-  case teapot
-  case pageExpired
-  case misdirectedRequest
-  case unprocessableEntity
-  case locked
-  case failedDependency
-  case upgradeRequired
-  case preconditionRequired
-  case tooManyRequests
-  case requestHeaderFieldsTooLarge
-  case noResponse
-  case unavailableForLegalReasons
-  case SSLCertificateError
-  case SSLCertificateRequired
-  case HTTPRequestSentToHTTPSPort
-  case clientClosedRequest
   case internalServerError
   case notImplemented
-  case badGateway
   case serviceUnavailable
-  case gatewayTimeout
-  case HTTPVersionNotSupported
-  case variantAlsoNegotiates
-  case insufficientStorage
-  case loopDetected
-  case notExtended
-  case networkAuthenticationRequired
-  public var responseType: Aficionado.HTTPStatusCode.ResponseType {
-    get
-  }
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-extension Foundation.HTTPURLResponse {
-  public var httpStatusCode: Aficionado.HTTPStatusCode? {
-    get
-  }
+  case imageNotAvailable
+  case invalidURL(Swift.String)
 }
 public protocol NetworkManaging {
   #if compiler(>=5.3) && $AsyncAwait
@@ -127,9 +37,9 @@ final public class NetworkManager : Aficionado.NetworkManaging {
 }
 public enum Stability {
   case excellent
-  case strong
-  case poor
-  case unavailable
+  case good
+  case unstable
+  case broken
   public static func == (a: Aficionado.Stability, b: Aficionado.Stability) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -144,10 +54,20 @@ public enum ViewsError : Swift.Error {
     get
   }
 }
-final public class ViewsService {
+public protocol ViewsManaging {
+  init()
+  func viewsStream(for itemID: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
+  #if compiler(>=5.3) && $AsyncAwait
+  func latestViewCount(for itemID: Swift.String) async throws -> Swift.Int
+  #endif
+}
+final public class ViewsManager {
   public init()
+  final public func viewsStream(for itemID: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func latestViewCount(for itemID: Swift.String) async throws -> Swift.Int
+  #endif
   @objc deinit
-  final public func viewsStream(itemid: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
 }
 public protocol NetworkConfigurable {
   var stability: Aficionado.Stability { get }
@@ -176,11 +96,6 @@ final public class ArtworkProvider : Aficionado.ArtworkProviding {
   #endif
   @objc deinit
 }
-extension Aficionado.HTTPStatusCode : Swift.Equatable {}
-extension Aficionado.HTTPStatusCode : Swift.Hashable {}
-extension Aficionado.HTTPStatusCode : Swift.RawRepresentable {}
-extension Aficionado.HTTPStatusCode.ResponseType : Swift.Equatable {}
-extension Aficionado.HTTPStatusCode.ResponseType : Swift.Hashable {}
 extension Aficionado.Stability : Swift.Equatable {}
 extension Aficionado.Stability : Swift.Hashable {}
 extension Aficionado.ViewsError : Swift.Equatable {}
