@@ -46,15 +46,7 @@ public enum Stability {
     get
   }
 }
-public enum ViewsError : Swift.Error {
-  case failedToMakeRequest
-  public static func == (a: Aficionado.ViewsError, b: Aficionado.ViewsError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public protocol ViewsManaging {
+public protocol ViewCountManaging {
   init()
   func viewsStream(for itemID: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
   #if compiler(>=5.3) && $AsyncAwait
@@ -76,14 +68,6 @@ public struct NetworkConfiguration : Aficionado.NetworkConfigurable {
   public let stability: Aficionado.Stability
   public init(stability: Aficionado.Stability = .excellent)
 }
-public enum ArtworkFetchError : Swift.Error {
-  case invalidImageName
-  public static func == (a: Aficionado.ArtworkFetchError, b: Aficionado.ArtworkFetchError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public protocol ArtworkProviding {
   #if compiler(>=5.3) && $AsyncAwait
   func fetchImage(url: Foundation.URL) async throws -> Foundation.Data
@@ -98,7 +82,3 @@ final public class ArtworkProvider : Aficionado.ArtworkProviding {
 }
 extension Aficionado.Stability : Swift.Equatable {}
 extension Aficionado.Stability : Swift.Hashable {}
-extension Aficionado.ViewsError : Swift.Equatable {}
-extension Aficionado.ViewsError : Swift.Hashable {}
-extension Aficionado.ArtworkFetchError : Swift.Equatable {}
-extension Aficionado.ArtworkFetchError : Swift.Hashable {}

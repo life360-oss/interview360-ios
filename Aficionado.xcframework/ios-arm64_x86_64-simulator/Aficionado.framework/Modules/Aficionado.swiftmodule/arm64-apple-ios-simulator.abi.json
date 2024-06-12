@@ -329,6 +329,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.NetworkManaging>",
             "sugared_genericSig": "<Self where Self : Aficionado.NetworkManaging>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -383,6 +386,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.NetworkManaging>",
             "sugared_genericSig": "<Self where Self : Aficionado.NetworkManaging>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -410,6 +416,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.NetworkManaging>",
             "sugared_genericSig": "<Self where Self : Aficionado.NetworkManaging>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "init_kind": "Designated"
           }
@@ -936,185 +945,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ViewsError",
-        "printedName": "ViewsError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "failedToMakeRequest",
-            "printedName": "failedToMakeRequest",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Aficionado.ViewsError.Type) -> Aficionado.ViewsError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ViewsError",
-                    "printedName": "Aficionado.ViewsError",
-                    "usr": "s:10Aficionado10ViewsErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Aficionado.ViewsError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ViewsError",
-                        "printedName": "Aficionado.ViewsError",
-                        "usr": "s:10Aficionado10ViewsErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Aficionado10ViewsErrorO19failedToMakeRequestyA2CmF",
-            "mangledName": "$s10Aficionado10ViewsErrorO19failedToMakeRequestyA2CmF",
-            "moduleName": "Aficionado"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ViewsError",
-                "printedName": "Aficionado.ViewsError",
-                "usr": "s:10Aficionado10ViewsErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ViewsError",
-                "printedName": "Aficionado.ViewsError",
-                "usr": "s:10Aficionado10ViewsErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Aficionado10ViewsErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10Aficionado10ViewsErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "Aficionado",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10Aficionado10ViewsErrorO9hashValueSivp",
-            "mangledName": "$s10Aficionado10ViewsErrorO9hashValueSivp",
-            "moduleName": "Aficionado",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10Aficionado10ViewsErrorO9hashValueSivg",
-                "mangledName": "$s10Aficionado10ViewsErrorO9hashValueSivg",
-                "moduleName": "Aficionado",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Aficionado10ViewsErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s10Aficionado10ViewsErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "Aficionado",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10Aficionado10ViewsErrorO",
-        "mangledName": "$s10Aficionado10ViewsErrorO",
-        "moduleName": "Aficionado",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ViewsManaging",
-        "printedName": "ViewsManaging",
+        "name": "ViewCountManaging",
+        "printedName": "ViewCountManaging",
         "children": [
           {
             "kind": "Constructor",
@@ -1128,11 +960,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10Aficionado13ViewsManagingPxycfc",
-            "mangledName": "$s10Aficionado13ViewsManagingPxycfc",
+            "usr": "s:10Aficionado17ViewCountManagingPxycfc",
+            "mangledName": "$s10Aficionado17ViewCountManagingPxycfc",
             "moduleName": "Aficionado",
-            "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ViewsManaging>",
-            "sugared_genericSig": "<Self where Self : Aficionado.ViewsManaging>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ViewCountManaging>",
+            "sugared_genericSig": "<Self where Self : Aficionado.ViewCountManaging>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "init_kind": "Designated"
@@ -1170,12 +1002,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado13ViewsManagingP11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
-            "mangledName": "$s10Aficionado13ViewsManagingP11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
+            "usr": "s:10Aficionado17ViewCountManagingP11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
+            "mangledName": "$s10Aficionado17ViewCountManagingP11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
             "moduleName": "Aficionado",
-            "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ViewsManaging>",
-            "sugared_genericSig": "<Self where Self : Aficionado.ViewsManaging>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ViewCountManaging>",
+            "sugared_genericSig": "<Self where Self : Aficionado.ViewCountManaging>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1199,20 +1034,23 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado13ViewsManagingP15latestViewCount3forSiSS_tYaKF",
-            "mangledName": "$s10Aficionado13ViewsManagingP15latestViewCount3forSiSS_tYaKF",
+            "usr": "s:10Aficionado17ViewCountManagingP06latestbC03forSiSS_tYaKF",
+            "mangledName": "$s10Aficionado17ViewCountManagingP06latestbC03forSiSS_tYaKF",
             "moduleName": "Aficionado",
-            "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ViewsManaging>",
-            "sugared_genericSig": "<Self where Self : Aficionado.ViewsManaging>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ViewCountManaging>",
+            "sugared_genericSig": "<Self where Self : Aficionado.ViewCountManaging>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:10Aficionado13ViewsManagingP",
-        "mangledName": "$s10Aficionado13ViewsManagingP",
+        "usr": "s:10Aficionado17ViewCountManagingP",
+        "mangledName": "$s10Aficionado17ViewCountManagingP",
         "moduleName": "Aficionado",
         "declAttributes": [
           "AccessControl"
@@ -1520,183 +1358,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ArtworkFetchError",
-        "printedName": "ArtworkFetchError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "invalidImageName",
-            "printedName": "invalidImageName",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Aficionado.ArtworkFetchError.Type) -> Aficionado.ArtworkFetchError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ArtworkFetchError",
-                    "printedName": "Aficionado.ArtworkFetchError",
-                    "usr": "s:10Aficionado17ArtworkFetchErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Aficionado.ArtworkFetchError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ArtworkFetchError",
-                        "printedName": "Aficionado.ArtworkFetchError",
-                        "usr": "s:10Aficionado17ArtworkFetchErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Aficionado17ArtworkFetchErrorO16invalidImageNameyA2CmF",
-            "mangledName": "$s10Aficionado17ArtworkFetchErrorO16invalidImageNameyA2CmF",
-            "moduleName": "Aficionado"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ArtworkFetchError",
-                "printedName": "Aficionado.ArtworkFetchError",
-                "usr": "s:10Aficionado17ArtworkFetchErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ArtworkFetchError",
-                "printedName": "Aficionado.ArtworkFetchError",
-                "usr": "s:10Aficionado17ArtworkFetchErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Aficionado17ArtworkFetchErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10Aficionado17ArtworkFetchErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "Aficionado",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10Aficionado17ArtworkFetchErrorO9hashValueSivp",
-            "mangledName": "$s10Aficionado17ArtworkFetchErrorO9hashValueSivp",
-            "moduleName": "Aficionado",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10Aficionado17ArtworkFetchErrorO9hashValueSivg",
-                "mangledName": "$s10Aficionado17ArtworkFetchErrorO9hashValueSivg",
-                "moduleName": "Aficionado",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Aficionado17ArtworkFetchErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s10Aficionado17ArtworkFetchErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "Aficionado",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10Aficionado17ArtworkFetchErrorO",
-        "mangledName": "$s10Aficionado17ArtworkFetchErrorO",
-        "moduleName": "Aficionado",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "ArtworkProviding",
         "printedName": "ArtworkProviding",
         "children": [
@@ -1725,6 +1386,9 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ArtworkProviding>",
             "sugared_genericSig": "<Self where Self : Aficionado.ArtworkProviding>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1831,114 +1495,107 @@
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Network\/Payload\/PayloadProvider.swift",
       "kind": "StringLiteral",
-      "offset": 288,
+      "offset": 365,
       "length": 16,
       "value": "\"artworkpayload\""
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "FloatLiteral",
-      "offset": 410,
+      "offset": 422,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "FloatLiteral",
-      "offset": 454,
+      "offset": 466,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "FloatLiteral",
-      "offset": 502,
+      "offset": 514,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "FloatLiteral",
-      "offset": 548,
+      "offset": 560,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "IntegerLiteral",
-      "offset": 813,
+      "offset": 822,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "IntegerLiteral",
-      "offset": 817,
+      "offset": 826,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "FloatLiteral",
-      "offset": 1129,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "FloatLiteral",
-      "offset": 1173,
+      "offset": 1137,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "FloatLiteral",
-      "offset": 1221,
+      "offset": 1181,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1229,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Views\/ViewsTickerService.swift",
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "Dictionary",
-      "offset": 373,
+      "offset": 377,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Views\/ViewsTickerService.swift",
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "FloatLiteral",
-      "offset": 647,
+      "offset": 651,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Views\/ViewsTickerService.swift",
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1422,
+      "offset": 1430,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Views\/ViewsTickerService.swift",
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1426,
+      "offset": 1434,
       "length": 5,
       "value": "10000"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ArtworkProvider\/ArtworkProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 14,
-      "value": "\"notavailable\""
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
@@ -1980,7 +1637,7 @@
       "kind": "StringLiteral",
       "offset": 854,
       "length": 51,
-      "value": "\"Something is wront with the Filename: \""
+      "value": "\"Something is wrong with the filename: \""
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
