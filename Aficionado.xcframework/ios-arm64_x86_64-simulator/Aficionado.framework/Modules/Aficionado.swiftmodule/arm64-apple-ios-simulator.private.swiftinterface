@@ -48,14 +48,14 @@ public enum Stability {
 }
 public protocol ViewCountManaging {
   init()
-  func viewsStream(for itemID: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
+  func viewCountStream(for itemID: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
   #if compiler(>=5.3) && $AsyncAwait
   func latestViewCount(for itemID: Swift.String) async throws -> Swift.Int
   #endif
 }
-final public class ViewsManager {
+final public class ViewCountManager : Aficionado.ViewCountManaging {
   public init()
-  final public func viewsStream(for itemID: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
+  final public func viewCountStream(for itemID: Swift.String) throws -> Combine.AnyPublisher<Swift.Int, Swift.Never>
   #if compiler(>=5.3) && $AsyncAwait
   final public func latestViewCount(for itemID: Swift.String) async throws -> Swift.Int
   #endif

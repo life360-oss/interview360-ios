@@ -14,43 +14,43 @@
 		</data>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UE3Jme4ZI/DFdhHV1ub8F/z9UIY=
+		vwgJG8XzLD1mQMqRfFGCXZUKWVY=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IDPJ6rKuvoviaAq1tZvsWIbugqA=
+		Y3uCSLqhNROw7AFaTMXZRxQ4WYw=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		g6fEf/hyyAN4YLPsmngWIuWCaaE=
+		0WNt/xgURVk79bOO3TXVnj8Tvgg=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IDPJ6rKuvoviaAq1tZvsWIbugqA=
+		Y3uCSLqhNROw7AFaTMXZRxQ4WYw=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DCPH2ya7q/Sotl028LbxCeRC7kk=
+		I+qk7bWDKOtnnU+/3CGz5NwIsI8=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UE3Jme4ZI/DFdhHV1ub8F/z9UIY=
+		vwgJG8XzLD1mQMqRfFGCXZUKWVY=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JFIkkfYln8Q3a8ER+IEiC5UEZ+I=
+		TOfsvD1+kKnQLcB982ygiYkhko0=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		g0a62h1drmWuevb81k0AAR5DuA4=
+		dZzGJgmaaBvBqSP26n92bdkMRHo=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JFIkkfYln8Q3a8ER+IEiC5UEZ+I=
+		TOfsvD1+kKnQLcB982ygiYkhko0=
 		</data>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KJ7f2GoY3B9HmOX7zA6J/so4WuQ=
+		XIs3ra58n9cKxNr2/TypSpFbPA0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>artworkpayload.json</key>
 		<data>
-		SrRb+ncEDlOsYy+NRf/DqnN+Hu0=
+		xLMOf0d+hXM0aw+gXX2yoapY1BA=
 		</data>
 		<key>ashepherddrivingaflockofsheepthroughawood.jpeg</key>
 		<data>
@@ -474,70 +474,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5JDqy4j3mocAxSmGXmtqE1omaOIuqQC5T8Nq/qQwfmk=
+			Y3aw0AsVynnB/W4uW05mBsWkaKhlGKlmMAYgALJuC14=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OQtQjJA6GN6/mfNuTKa31jLsjau31Di9aLmcuFaFd8=
+			HRDqISw6eEDOw8JZyvsHDgkdmis9Ie8H/FcS0TsTHf4=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b+QS2v9SwOlL7Hi+C4NK5nEWLuTJb9p3i3Z4CeBYPaI=
+			WlOWWGh/MCaA+cRYvDCFbvYn6pyrxnWfvKYTtVzwJJQ=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OQtQjJA6GN6/mfNuTKa31jLsjau31Di9aLmcuFaFd8=
+			HRDqISw6eEDOw8JZyvsHDgkdmis9Ie8H/FcS0TsTHf4=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dh+0/jJmVtVdJW1qXMweTubRFT+SAFTKwePkh3tcse8=
+			+Rnl1xPrO1YgtynXw1j1zTEYCvhiIfuc0SOzDXVQldo=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5JDqy4j3mocAxSmGXmtqE1omaOIuqQC5T8Nq/qQwfmk=
+			Y3aw0AsVynnB/W4uW05mBsWkaKhlGKlmMAYgALJuC14=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BW0UfGdkzud9kQG53gulAURtoJZsSg+JMFiTf/zOpQ=
+			GBDLU0OVbBtH1fJ4zOxpXjHf6XQ6ruGr8cJVLTET+U8=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NdloZntTazmE947vad1wnvLQJ4608oG26KBkL3+9oFU=
+			KuY3ZxIgLjgIKdUvUEQc49X6vXofwYVpV1PgisBWCS4=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BW0UfGdkzud9kQG53gulAURtoJZsSg+JMFiTf/zOpQ=
+			GBDLU0OVbBtH1fJ4zOxpXjHf6XQ6ruGr8cJVLTET+U8=
 			</data>
 		</dict>
 		<key>Modules/Aficionado.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BTQ1ukbbofWQRExfisQt0xXp6f4nZ6vdrlV2ER3S0Bs=
+			7RWtcvWqrIzKKKYVQge7NFmBqTkB4SKvnpKZbGZweCE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -642,7 +642,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LilLIWAYlUe2UpsN6Y0t2e/Po7gPXEVqu3xZNNuZ3wk=
+			sX6+a8Pp1A5DTwRW725ag20BizP61qHZXRlcI2wkPt8=
 			</data>
 		</dict>
 		<key>ashepherddrivingaflockofsheepthroughawood.jpeg</key>

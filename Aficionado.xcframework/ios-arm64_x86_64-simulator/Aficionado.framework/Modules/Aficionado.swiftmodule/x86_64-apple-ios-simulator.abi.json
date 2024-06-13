@@ -971,8 +971,8 @@
           },
           {
             "kind": "Function",
-            "name": "viewsStream",
-            "printedName": "viewsStream(for:)",
+            "name": "viewCountStream",
+            "printedName": "viewCountStream(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1002,8 +1002,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado17ViewCountManagingP11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
-            "mangledName": "$s10Aficionado17ViewCountManagingP11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
+            "usr": "s:10Aficionado17ViewCountManagingP04viewC6Stream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
+            "mangledName": "$s10Aficionado17ViewCountManagingP04viewC6Stream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
             "moduleName": "Aficionado",
             "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.ViewCountManaging>",
             "sugared_genericSig": "<Self where Self : Aficionado.ViewCountManaging>",
@@ -1058,8 +1058,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ViewsManager",
-        "printedName": "ViewsManager",
+        "name": "ViewCountManager",
+        "printedName": "ViewCountManager",
         "children": [
           {
             "kind": "Constructor",
@@ -1068,14 +1068,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ViewsManager",
-                "printedName": "Aficionado.ViewsManager",
-                "usr": "s:10Aficionado12ViewsManagerC"
+                "name": "ViewCountManager",
+                "printedName": "Aficionado.ViewCountManager",
+                "usr": "s:10Aficionado16ViewCountManagerC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10Aficionado12ViewsManagerCACycfc",
-            "mangledName": "$s10Aficionado12ViewsManagerCACycfc",
+            "usr": "s:10Aficionado16ViewCountManagerCACycfc",
+            "mangledName": "$s10Aficionado16ViewCountManagerCACycfc",
             "moduleName": "Aficionado",
             "declAttributes": [
               "AccessControl",
@@ -1085,8 +1085,8 @@
           },
           {
             "kind": "Function",
-            "name": "viewsStream",
-            "printedName": "viewsStream(for:)",
+            "name": "viewCountStream",
+            "printedName": "viewCountStream(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1116,8 +1116,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado12ViewsManagerC11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
-            "mangledName": "$s10Aficionado12ViewsManagerC11viewsStream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
+            "usr": "s:10Aficionado16ViewCountManagerC04viewC6Stream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
+            "mangledName": "$s10Aficionado16ViewCountManagerC04viewC6Stream3for7Combine12AnyPublisherVySis5NeverOGSS_tKF",
             "moduleName": "Aficionado",
             "declAttributes": [
               "Final",
@@ -1146,8 +1146,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado12ViewsManagerC15latestViewCount3forSiSS_tYaKF",
-            "mangledName": "$s10Aficionado12ViewsManagerC15latestViewCount3forSiSS_tYaKF",
+            "usr": "s:10Aficionado16ViewCountManagerC06latestbC03forSiSS_tYaKF",
+            "mangledName": "$s10Aficionado16ViewCountManagerC06latestbC03forSiSS_tYaKF",
             "moduleName": "Aficionado",
             "declAttributes": [
               "Final",
@@ -1158,12 +1158,21 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:10Aficionado12ViewsManagerC",
-        "mangledName": "$s10Aficionado12ViewsManagerC",
+        "usr": "s:10Aficionado16ViewCountManagerC",
+        "mangledName": "$s10Aficionado16ViewCountManagerC",
         "moduleName": "Aficionado",
         "declAttributes": [
           "Final",
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewCountManaging",
+            "printedName": "ViewCountManaging",
+            "usr": "s:10Aficionado17ViewCountManagingP",
+            "mangledName": "$s10Aficionado17ViewCountManagingP"
+          }
         ]
       },
       {
@@ -1572,28 +1581,28 @@
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "Dictionary",
-      "offset": 377,
+      "offset": 382,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "FloatLiteral",
-      "offset": 651,
+      "offset": 656,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1435,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1434,
+      "offset": 1439,
       "length": 5,
       "value": "10000"
     },
