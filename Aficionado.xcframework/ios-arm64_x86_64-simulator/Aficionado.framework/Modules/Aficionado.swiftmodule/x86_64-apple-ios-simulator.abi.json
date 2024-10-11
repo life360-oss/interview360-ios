@@ -267,7 +267,10 @@
             "declKind": "EnumElement",
             "usr": "s:10Aficionado0A5ErrorO10invalidURLyACSScACmF",
             "mangledName": "$s10Aficionado0A5ErrorO10invalidURLyACSScACmF",
-            "moduleName": "Aficionado"
+            "moduleName": "Aficionado",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -312,8 +315,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "fetchFamousArtworkPayload",
-            "printedName": "fetchFamousArtworkPayload()",
+            "name": "fetchArtworkPayload",
+            "printedName": "fetchArtworkPayload()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -323,8 +326,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado15NetworkManagingP25fetchFamousArtworkPayload10Foundation4DataVyYaKF",
-            "mangledName": "$s10Aficionado15NetworkManagingP25fetchFamousArtworkPayload10Foundation4DataVyYaKF",
+            "usr": "s:10Aficionado15NetworkManagingP19fetchArtworkPayload10Foundation4DataVyYaKF",
+            "mangledName": "$s10Aficionado15NetworkManagingP19fetchArtworkPayload10Foundation4DataVyYaKF",
             "moduleName": "Aficionado",
             "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.NetworkManaging>",
             "sugared_genericSig": "<Self where Self : Aficionado.NetworkManaging>",
@@ -338,8 +341,8 @@
           },
           {
             "kind": "Function",
-            "name": "fetchFamousArtworkPayload",
-            "printedName": "fetchFamousArtworkPayload(_:)",
+            "name": "fetchArtworkPayload",
+            "printedName": "fetchArtworkPayload(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -349,7 +352,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.Data, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -359,7 +362,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.Data, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -370,7 +373,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -380,8 +383,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado15NetworkManagingP25fetchFamousArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
-            "mangledName": "$s10Aficionado15NetworkManagingP25fetchFamousArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
+            "usr": "s:10Aficionado15NetworkManagingP19fetchArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
+            "mangledName": "$s10Aficionado15NetworkManagingP19fetchArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
             "moduleName": "Aficionado",
             "genericSig": "<τ_0_0 where τ_0_0 : Aficionado.NetworkManaging>",
             "sugared_genericSig": "<Self where Self : Aficionado.NetworkManaging>",
@@ -405,7 +408,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetworkConfigurable",
-                "printedName": "Aficionado.NetworkConfigurable",
+                "printedName": "any Aficionado.NetworkConfigurable",
                 "usr": "s:10Aficionado19NetworkConfigurableP"
               }
             ],
@@ -444,7 +447,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetworkConfigurable",
-                "printedName": "Aficionado.NetworkConfigurable",
+                "printedName": "any Aficionado.NetworkConfigurable",
                 "usr": "s:10Aficionado19NetworkConfigurableP"
               }
             ],
@@ -469,7 +472,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "NetworkConfigurable",
-                    "printedName": "Aficionado.NetworkConfigurable",
+                    "printedName": "any Aficionado.NetworkConfigurable",
                     "usr": "s:10Aficionado19NetworkConfigurableP"
                   }
                 ],
@@ -499,7 +502,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetworkConfigurable",
-                "printedName": "Aficionado.NetworkConfigurable",
+                "printedName": "any Aficionado.NetworkConfigurable",
                 "usr": "s:10Aficionado19NetworkConfigurableP"
               }
             ],
@@ -516,8 +519,8 @@
           },
           {
             "kind": "Function",
-            "name": "fetchFamousArtworkPayload",
-            "printedName": "fetchFamousArtworkPayload()",
+            "name": "fetchArtworkPayload",
+            "printedName": "fetchArtworkPayload()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -527,8 +530,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado14NetworkManagerC25fetchFamousArtworkPayload10Foundation4DataVyYaKF",
-            "mangledName": "$s10Aficionado14NetworkManagerC25fetchFamousArtworkPayload10Foundation4DataVyYaKF",
+            "usr": "s:10Aficionado14NetworkManagerC19fetchArtworkPayload10Foundation4DataVyYaKF",
+            "mangledName": "$s10Aficionado14NetworkManagerC19fetchArtworkPayload10Foundation4DataVyYaKF",
             "moduleName": "Aficionado",
             "declAttributes": [
               "Final",
@@ -540,8 +543,8 @@
           },
           {
             "kind": "Function",
-            "name": "fetchFamousArtworkPayload",
-            "printedName": "fetchFamousArtworkPayload(_:)",
+            "name": "fetchArtworkPayload",
+            "printedName": "fetchArtworkPayload(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -551,7 +554,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.Data, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Foundation.Data, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -561,7 +564,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.Data, Swift.Error>",
+                    "printedName": "Swift.Result<Foundation.Data, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -572,7 +575,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -582,8 +585,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Aficionado14NetworkManagerC25fetchFamousArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
-            "mangledName": "$s10Aficionado14NetworkManagerC25fetchFamousArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
+            "usr": "s:10Aficionado14NetworkManagerC19fetchArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
+            "mangledName": "$s10Aficionado14NetworkManagerC19fetchArtworkPayloadyyys6ResultOy10Foundation4DataVs5Error_pGcF",
             "moduleName": "Aficionado",
             "deprecated": true,
             "declAttributes": [
@@ -659,6 +662,43 @@
         "children": [
           {
             "kind": "Var",
+            "name": "ideal",
+            "printedName": "ideal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Aficionado.Stability.Type) -> Aficionado.Stability",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Stability",
+                    "printedName": "Aficionado.Stability",
+                    "usr": "s:10Aficionado9StabilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Aficionado.Stability.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Stability",
+                        "printedName": "Aficionado.Stability",
+                        "usr": "s:10Aficionado9StabilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Aficionado9StabilityO5idealyA2CmF",
+            "mangledName": "$s10Aficionado9StabilityO5idealyA2CmF",
+            "moduleName": "Aficionado"
+          },
+          {
+            "kind": "Var",
             "name": "excellent",
             "printedName": "excellent",
             "children": [
@@ -692,7 +732,10 @@
             "declKind": "EnumElement",
             "usr": "s:10Aficionado9StabilityO9excellentyA2CmF",
             "mangledName": "$s10Aficionado9StabilityO9excellentyA2CmF",
-            "moduleName": "Aficionado"
+            "moduleName": "Aficionado",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1078,8 +1121,7 @@
             "mangledName": "$s10Aficionado16ViewCountManagerCACycfc",
             "moduleName": "Aficionado",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -1165,6 +1207,7 @@
           "Final",
           "AccessControl"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -1433,8 +1476,7 @@
             "mangledName": "$s10Aficionado15ArtworkProviderCACycfc",
             "moduleName": "Aficionado",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -1477,6 +1519,7 @@
           "Final",
           "AccessControl"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -1502,158 +1545,25 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Network\/Payload\/PayloadProvider.swift",
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Payload\/PayloadProvider.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 16,
       "value": "\"artworkpayload\""
     },
     {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "FloatLiteral",
-      "offset": 422,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "FloatLiteral",
-      "offset": 466,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "FloatLiteral",
-      "offset": 514,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "FloatLiteral",
-      "offset": 560,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "IntegerLiteral",
-      "offset": 822,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "IntegerLiteral",
-      "offset": 826,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "FloatLiteral",
-      "offset": 1137,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "FloatLiteral",
-      "offset": 1181,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1229,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/InternalServices\/Stability.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1273,
-      "length": 1,
-      "value": "2"
-    },
-    {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
       "kind": "Dictionary",
-      "offset": 382,
+      "offset": 615,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
-      "kind": "FloatLiteral",
-      "offset": 656,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1435,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/ViewCount\/ViewCountTickerService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1439,
-      "length": 5,
-      "value": "10000"
-    },
-    {
       "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
       "kind": "StringLiteral",
-      "offset": 225,
+      "offset": 431,
       "length": 24,
       "value": "\"com.life360.aficionado\""
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 421,
-      "length": 6,
-      "value": "\"json\""
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 46,
-      "value": "\"Unable to fetch \""
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 4,
-      "value": "\" from the bundle.\""
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 794,
-      "length": 6,
-      "value": "\"jpeg\""
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 854,
-      "length": 51,
-      "value": "\"Something is wrong with the filename: \""
-    },
-    {
-      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Utilities\/BundleLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 904,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }
